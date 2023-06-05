@@ -12,5 +12,7 @@
 - _After a certain period of inactivity, the site asks if the user is still here_
 - _Weather parser at the end of the page_ 
 \
+\
 [Link on this website](https://k-a-webdev.github.io/Retro-portfolio/)
+\
 ![Preview photo](img/Preview.png)
