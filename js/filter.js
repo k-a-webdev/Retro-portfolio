@@ -90,7 +90,7 @@ async function firstAddWorks() {
       Price: ${works[i]["price"]}
       `;
       work.onmouseover = () => { work.append(workInfo) };
-      work.onmouseout = () => { workInfo.remove() };
+      work.onmouseout = (event) => {if (!event.relatedTarget.closest('.work')) workInfo.remove() };
 
       const workImg = document.createElement('img');
       workImg.alt = "Error";

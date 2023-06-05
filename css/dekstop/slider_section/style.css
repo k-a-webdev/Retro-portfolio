@@ -1,20 +1,11 @@
 .slider_section {
-  background-color: #7ec1c1;
+  background-color: rgb(126, 193, 193);
   width: 100%;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .slider_section_dark {
@@ -23,7 +14,7 @@
 
 .slider_section__title {
   font-size: 7em;
-  color: #f6edd8;
+  color: rgb(246, 237, 216);
   font-family: "SeasideResortNF";
   text-align: center;
   margin-top: 20px;
@@ -41,7 +32,7 @@
   position: relative;
   text-align: center;
   font-size: 1em;
-  color: #4b4e4c;
+  color: rgb(75, 78, 76);
   top: 32%;
   font-family: "Bazar";
 }
@@ -51,8 +42,7 @@
   width: 69%;
   height: 100%;
   padding: 1%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .slides {
@@ -67,20 +57,12 @@
 
 .slides__btn {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   z-index: 2;
 }
 
@@ -100,8 +82,7 @@
   background-size: 100% 100%;
   width: 50px;
   height: 50px;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
   left: -15px;
 }
 
@@ -135,21 +116,15 @@
 }
 
 .slider__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .slider__text > p {
   font-size: 44px;
   font-family: "Bazar";
-  color: #383a3c;
+  color: rgb(56, 58, 60);
   text-align: center;
 }
 
@@ -158,12 +133,11 @@
   font-size: 2em;
   top: 32%;
   font-family: "Bazar";
-  color: #f7ebd8;
+  color: rgb(247, 235, 216);
   margin: 50px 0;
   line-height: 1.415;
 }
 
 .slider_section__introduce__text div {
   font-size: 0.8em;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
